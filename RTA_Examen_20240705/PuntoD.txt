@@ -1,0 +1,10 @@
+ansible-galaxy role init estructura
+d 2do_parcial/
+cd 2do_parcial/
+cd tasks/
+vim main.yml
+cd ..
+mkdir templates
+cd templates/
+cd vars/
+vim main.yml

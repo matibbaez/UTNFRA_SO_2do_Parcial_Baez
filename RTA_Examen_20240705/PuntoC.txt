@@ -1,0 +1,32 @@
+sudo docker push matiasbaezc/web1:baez
+sudo docker push matiasbaezc/web1:baez
+cd docker/
+mkdir web
+mv index.html web/
+cd web/
+vim Dockerfile
+docker build -t web1:baez
+docker build -t web1:baez .
+sudo docker build -t web1:baez .
+mv web/Dockerfile .
+sudo fdisk /dev/sdc
+docker login
+sudo fdisk /dev/sdc
+sudo fdisk /dev/sdd
+sudo pvcreate /dev/sdd5
+sudo vgs
+sudo vgextend vg_datos /dev/sdd5
+ls -l dev/mapper/vg_datos-lv_docker
+ls -l /dev/mapper/vg_datos-lv_docker
+sudo lvextend -l +100%FREE /dev/mapper/vg_datos-lv_docker
+sudo lvs
+sudo resize2fs /dev/mapper/vg_datos-lv_docker
+df -f
+df -h
+sudo docker build -t web1:baez .
+sudo docker run -d -p 80:80 web1:baez
+sudo docker ps
+docker tag web1baez matiasbaezc/web1:baez
+sudo docker tag web1baez matiasbaezc/web1:baez
+sudo docker tag web1:baez matiasbaezc/web1:baez
+sudo docker push matiasbaezc/web1:baez

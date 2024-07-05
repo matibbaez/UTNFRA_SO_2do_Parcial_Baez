@@ -1,0 +1,8 @@
+---
+  # vars file for 2do_parcial
+  NOMBRE: "Matias"
+  APELLIDO: "Baez"
+  DIVISION: "116"
+  EQUIPO_IP: "192.168.56.3"
+  EQUIPO_DISTRO: "Ubuntu 22.04.4 LTS"
+  EQUIPO_CORES: "2"
