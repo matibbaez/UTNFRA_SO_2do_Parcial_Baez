@@ -8,7 +8,7 @@ usuario_clave="$1"
 clave=$(grep "^$usuario_clave:" "$2" | cut -d: -f2)
 
 grupo="mi_grupo"
-groupadd "$grupo" 2>/dev/null || true
+groupadd "$grupo" || true
 
 nuevo_usuario="nuevo_usuario"
 useradd -m -p "$clave" "$nuevo_usuario"
