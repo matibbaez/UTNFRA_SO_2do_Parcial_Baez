@@ -1,5 +1,5 @@
 if [ $# -ne 2 ]; then
-    echo "Uso: $0 <usuario_clave> <ruta_archivo_usuarios>"
+    echo "Uso: $0 baez <Path_Repo>/202406/bash_script/Lista_Usuarios.txt"
     echo "Ejemplo: $0 usuario1 /path/to/repo/202406/bash_script/Lista_Usuarios.txt"
     exit 1
 fi
